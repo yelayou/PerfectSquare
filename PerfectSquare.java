@@ -8,12 +8,12 @@ public class PerfectSquare {
 		
 	}
 	
-	public static boolean isPerfectSquare(int num) {
-		for (int i = 1; i <= num / 2; i++) {
-			if (i * i == num) {
-				return true;
+	public static boolean isPerfectSquare(int num) { //Method to check if a number is a perfect square
+		for (int i = 1; i <= num / 2; i++) { // Loop from 1 to half of the number
+			if (i * i == num) { // Check if the square of i equals the number
+				return true; // If a perfect square is found, return true
 			}
         }
-		return false;
+		return false; // If no perfect square is found, return false
     }
 }
