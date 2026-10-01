@@ -1,1 +1,1 @@
-# Exercise01_08
+# Exercise for finding if a number has a PerfectSquare
